@@ -35,7 +35,6 @@ public class Main {
 
     public static int findMax(int[] arrNum) {
         int max = arrNum[0];
-
         for (int i = 1; i < arrNum.length; i++) {
             if (arrNum[i] > max) {
                 max = arrNum[i];
@@ -77,6 +76,6 @@ public class Main {
      * 7. Напишите метод, который принимает два числа, представляющие длины катетов, и возвращает длину гипотенузы (используйте теорему Пифагора).
      */
     public static double calculateHypotenuse(double a, double b) {
-        return Math.sqrt( Math.pow(a, 2) + Math.pow(b, 2));
+        return Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
     }
 }
