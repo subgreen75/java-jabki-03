@@ -8,7 +8,7 @@ class MainTest {
     public void task_1() {
         int startRange=1;
         int endRange=10; // конец диапазона
-        Assertions.assertEquals(1+2+3+4+5+6+7+8+9+10, Main.sumRange(startRange,endRange));
+        Assertions.assertEquals(1+2+3+4+5+6+7+8+9+10,Main.sumRange(startRange,endRange));
         System.out.printf("Сумма чисел от %s до %s = %s%s",startRange,endRange,Main.sumRange(startRange,endRange),System.lineSeparator());
     }
 
